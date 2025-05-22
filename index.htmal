@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador de Planilhas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Gerador de Planilhas</h1>
+  <form id="dataForm">
+    <label>Nome: <input type="text" name="nome" required /></label>
+    <label>Idade: <input type="number" name="idade" required /></label>
+    <label>Email: <input type="email" name="email" required /></label>
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <button id="downloadBtn">Baixar Planilha</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
